@@ -5,14 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Recipes</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Recipes I want to Try!</h1>
-
-    <a href="recipes/cottage-pie.html">Cottage Pie</a>
-    <a href="recipes/shakshuka.html">Shakshuka</a>
-    <a href="recipes/lemon-cheesecake.html">Lemon Cheesecake</a>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        background-image: url('images/kitchen2.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100vw;
+        height: 100vh;
+        width: 100vw;
+        font-family:  'Gaegu', cursive;
+        font-size: 20px;
+        margin: 0;
+      }
+      .header {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 69%);
+        border-radius: 20px;
+        padding: 20px;
+        color: black;
+        margin: 10px;
+      }
+      .cards {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+        margin: 10px;
+        border-radius: 20px;
+        gap: 20px;
+      }
+      .two {
+        background-image: 
+        linear-gradient(0deg,#00000088 30%, #ffffff44 100%),
+        url("images/shakshuka.jpg");
+        overflow: hidden;
+        background-size: cover;
+      }
+      .one {
+        background-image: 
+        linear-gradient(0deg,#00000088 30%, #ffffff44 100%),
+        url("images/cottage-pie.jpg");
+        overflow: hidden;
+        background-size: cover;
+      }
+      .three {
+        background-image: 
+        linear-gradient(0deg,#00000088 30%, #ffffff44 100%),
+        url("images/lemon-cheesecake.jpg");
+        overflow: hidden;
+        background-size: cover;
+      }
+      .one, .two, .three {
+        display: flex;
+        flex: 1;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 10px;
+        justify-content: center;
+      }
+      a {
+        display: flex;
+        text-decoration: none;
+        color: white;
+      }
+    </style>
+    <div class="header">
+      <h1>Recipes I want to Try!</h1>
+    </div>
+    <div class="cards">
+      <div class="one">
+        <a href="recipes/cottage-pie.html">Cottage Pie</a>
+      </div>
+      <div class="two">
+        <a href="recipes/shakshuka.html">Shakshuka</a>
+      </div>
+      <div class="three">
+        <a href="recipes/lemon-cheesecake.html">Lemon Cheesecake</a>
+      </div>
+  </div>  
 	<script src="index.js"></script>
   </body>
 </html>
