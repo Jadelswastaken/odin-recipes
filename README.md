@@ -1,9 +1,10 @@
-# odin-recipes
+# Here are the recipes I would love to try
+Find the webpage [here!](https://queencyanide6.github.io/odin-recipes/)
 
----
-
-## Objective
-This is the first project I am working on for the Odin Project for me to learn how to be a software developer/engineer.
-
-## Project
-An HTML-only Webpage to show skills like Hyperlinks, adding images and making lists.
+## What I learnt:
+    - Using styles within HTML
+    - The use of images and how to size them
+    - Flex-box
+    - Linear gradients
+    - git
+    - Patience
